@@ -1,0 +1,75 @@
+#contenedor-tareas{
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px; margin: 5px;
+    display: flex;
+    width: auto;
+    align-items: stretch;
+    align-content: center;
+    background-color: rgba(1, 153, 135, 0.285);
+    gap: 12px;
+
+}
+
+body{
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(1, 153, 135, 0.285);
+    background-image: url('/img/FondodePantalla.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.boton{
+  border-radius: 10px;
+  padding: 5px;
+  background-color: blueviolet;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+
+.titulo{
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px; margin: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(1, 153, 135, 0.285);
+}
+
+.tarea{
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px; 
+    margin: 5px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(1, 153, 135, 0.285);
+}
+
+.tarea > h3{
+  height: 40px;
+}
+
+
+@media (max-width: 768px) {
+  #contenedor-tareas{
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+
+  }
+}
+
+
+
